@@ -77,7 +77,7 @@ app.post("/add",async(req,res)=>{
   console.error(`${input} is already on the list, try again ${err.name}`)
   res.render("index.ejs",{error:err.message})
 }
-
+console.log("this is just to save my streak :)")
 })
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
