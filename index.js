@@ -10,7 +10,7 @@ const db=new pg.Client({
   //put your password here  password: "000000", make sure its string
   port: 5432,
 })
-console.loge("save a steake")
+
 db.connect()
 let visited_countrys_code=[]
 let countrys_name=[]
